@@ -1,0 +1,50 @@
+#heading{
+    text-align: center;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#input,#to-do-date{
+    font-size: 15px;
+    padding : 10px 5px;
+}
+
+
+.grid-container{
+    display: grid;
+     grid-template-columns: 200px 150px 100px;
+     column-gap: 10px;
+     row-gap: 15px;
+     margin-top: 15px; 
+     align-items: center;
+     width:600px ;
+     margin: 0 auto;   
+}
+.first{
+    margin-bottom: 15px;
+}
+
+.delete{
+    background-color: rgb(120, 13, 13);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 0px;
+    cursor: pointer;
+}
+.delete:hover{
+    transition: 0.2s;
+    transform: scale(1.1);
+}
+
+#task{
+     background-color: green;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 0px;
+    cursor: pointer;
+    
+}
